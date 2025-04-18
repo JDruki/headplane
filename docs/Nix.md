@@ -43,7 +43,7 @@ Defined as `services.headplane.*`, check the `./nix/` directory for details.
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     headplane = {
-      url = "github:igor-ramazanov/headplane/nix";
+      url = "github:taleheadplane";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
